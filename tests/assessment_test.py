@@ -35,7 +35,7 @@ def test_five():
     assert python1.five(6) == 720
     assert python1.five(8) == 40320
 
-def xtest_six():
+def test_six():
     assert python1.six("The",2,"h") == True
     assert python1.six("AAbb",1,"b") == False
     assert python1.six("Hi-There",10,"e") == False
