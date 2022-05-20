@@ -28,7 +28,7 @@ def test_four():
     assert python1.four("height") == False
     assert python1.four("receive") == True
 
-def xtest_five():
+def test_five():
     assert python1.five(1) == 1
     assert python1.five(3) == 6
     assert python1.five(4) == 24
