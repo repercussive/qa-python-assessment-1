@@ -119,7 +119,11 @@ def three(input):
 
 
 def four(input):
-    return False
+		if "cei" in input:
+			return True
+		if "cie" in input:
+			return False
+		return "ie" in input
 
 # ------------------------------------------------------------------------------------------------------------------------------------------------------------------ 
 

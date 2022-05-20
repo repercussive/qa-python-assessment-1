@@ -21,7 +21,7 @@ def test_three():
     assert python1.three("as") == 1
     assert python1.three("pass") == 1
 
-def xtest_four():
+def test_four():
     assert python1.four("ceiling") == True
     assert python1.four("believe") == True
     assert python1.four("glacier") == False
