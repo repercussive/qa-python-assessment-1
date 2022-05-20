@@ -63,7 +63,7 @@ def test_nine():
     assert python1.nine("xxbertyy") == ""
     assert python1.nine("xxbeRTyy") == ""
 
-def xtest_ten():
+def test_ten():
     assert python1.ten("Jeff,random.py,False,1445") == ["Jeff"]
     assert python1.ten("Bert,numberGen.py,True,1447,Bert,integers.py,True,1318,Jeff,floats.py,False,1445") == ["Jeff"]
     assert python1.ten("Bert,boolean.py,False,1447,Bert,conditions.py,False,1318,Jeff,loops.py,False,1445") == ["Bert","Jeff"]

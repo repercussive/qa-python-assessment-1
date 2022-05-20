@@ -290,7 +290,17 @@ def nine(input):
 	# help(str) and help(list), you might also need to use a function that can create a list of numbers for you, try help(range).
 
 def ten(input):
-	return []
+	names = []
+	values = input.split(",")
+	record_length = 4
+
+	for start_index in range(0, len(values), record_length):
+		name = values[start_index]
+		is_encrypted = values[start_index + 2] == "True"
+		if not is_encrypted and name not in names:
+			names.append(name)
+
+	return names
 
 # ------------------------------------------------------------------------------------------------------------------------------------------------------------------ 
 
