@@ -223,7 +223,14 @@ def seven(input_string, char):
 	# help(int) for working with numbers and help(str) for working with Strings.
 
 def eight(arg1):
-	return 0
+	nums: list[str] = arg1.split(" ")
+	max_sum = 0
+	for num in nums:
+		total = 0
+		for digit in num:
+			total += int(digit)
+		max_sum = max(max_sum, total)
+	return max_sum
 
 # ------------------------------------------------------------------------------------------------------------------------------------------------------------------ 
 

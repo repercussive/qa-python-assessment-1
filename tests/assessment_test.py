@@ -49,7 +49,7 @@ def test_seven():
     assert python1.seven("I love Python", "L") == -1
     assert python1.seven("I LOVE PYTHON", "L") == 2
 
-def xtest_eight():
+def test_eight():
     assert python1.eight("55 72 86") == 14
     assert python1.eight("15 72 80 164") == 11
     assert python1.eight("555 72 86 45 10") == 15
