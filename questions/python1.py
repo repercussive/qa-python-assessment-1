@@ -257,7 +257,10 @@ def eight(arg1):
 	# Use your CLI to access the Python documentation and get help manipulating strings - help(str).
 
 def nine(input):
-	return ""
+	segments = input.lower().split("bert")
+	if len(segments) != 3: 
+		return ""
+	return segments[1]
 
 # ------------------------------------------------------------------------------------------------------------------------------------------------------------------ 
 

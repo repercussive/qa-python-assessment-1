@@ -56,7 +56,7 @@ def test_eight():
     assert python1.eight("98 63 34 1 13") == 17
     assert python1.eight("98 107 415") == 17
 
-def xtest_nine():
+def test_nine():
     assert python1.nine("bertclivebert") == "clive"
     assert python1.nine("xxbertfridgebertyy") == "fridge"
     assert python1.nine("xxBertfridgebERtyy") == "fridge"
