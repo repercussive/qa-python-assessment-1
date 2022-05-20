@@ -7,7 +7,7 @@ def test_one():
     assert python1.one("echo", "print") == "print"
     assert python1.one("fire","rib") == "fire"
 
-def xtest_two():
+def test_two():
     assert python1.two(3) == "fizz"
     assert python1.two(10) == "buzz"
     assert python1.two(15) == "fizzbuzz"
