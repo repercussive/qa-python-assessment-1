@@ -14,7 +14,7 @@ def test_two():
     assert python1.two(8) == "null"
     assert python1.two(75) == "fizzbuzz"
 
-def xtest_three():
+def test_three():
     assert python1.three("Hello") == 2 
     assert python1.three("hEelLoooO") == 6
     assert python1.three("WhitEboarD") == 4
