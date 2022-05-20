@@ -42,7 +42,7 @@ def test_six():
     assert python1.six("HEY",2,"e") == True
     assert python1.six("on-premise",3,"-") == True
 
-def xtest_seven():
+def test_seven():
     assert python1.seven("This is a Sentence","s") == 4
     assert python1.seven("This is a Sentence","S") == 8
     assert python1.seven("Fridge for sale","z") == -1

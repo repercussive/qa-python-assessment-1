@@ -192,8 +192,11 @@ def six(string, index, char):
 
 	# Take a look at the documentation for Strings, List and range.
 
-def seven(inputString, char):
-	return -1
+def seven(input_string, char):
+	try:
+		return input_string.replace(" ", "").index(char) + 1
+	except:
+		return -1
 
 # ------------------------------------------------------------------------------------------------------------------------------------------------------------------ 
 
